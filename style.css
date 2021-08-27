@@ -80,6 +80,10 @@ small{
   text-align: center;
 }
 
+small.mobile{
+  display: none;
+}
+
 footer{
   background-color: #444;
   margin-top: auto;
@@ -116,6 +120,15 @@ footer a {
   #Todos li{
     font-size: 1rem;
   }
+  
+  small.desktop{
+    display: none;
+  }
+  
+  small.mobile{
+    display: block
+  };
+
   footer{
     flex-direction: column;
     padding-bottom: 1rem;
