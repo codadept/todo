@@ -42,10 +42,12 @@ h1{
   padding: 1rem 2rem;
   display: block;
   width: 100%;
+  text-align: center;
 }
 
 #Todo-input::placeholder{
   color: #d5d5d5;
+  text-align: center;
 }
 
 #Todo-input:focus {
@@ -64,6 +66,7 @@ h1{
   cursor: pointer;
   font-size: 1.5rem;
   padding: 1rem 2rem;
+  text-align: center;
 }
 
 #Todos li.completed{
@@ -78,16 +81,17 @@ small{
 }
 
 footer{
-  border: 1px solid black;
+  background-color: #444;
   margin-top: auto;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #fff;
 }
 
 footer a {
+  color: #fff;
   text-decoration: none;
-  color: #444;
   margin: 0 1rem;
 }
